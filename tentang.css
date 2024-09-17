@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.container {
+    /* border: 1px solid; */
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* navbar */
+.container .navbar {
+    /* border: 1px solid; */
+    width: 90vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+/* navbar end */
+
+/* header */
+.container .header {
+    /* border: 1px solid; */
+    width: 90vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.header p span {
+    font-weight: bold;
+}
+/* header end */
+
+/* what is */
+.container .what-is {
+    /* border: 1px solid; */
+    width: 90vw;
+    height: fit-content;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.what-is p {
+    margin-top: 20px;
+    text-align: justify;
+}
+.what-is button {
+    border: none;
+    display: flex;
+    /* width: 50px; */
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* what is end */
+
+/* footer */
+.container .footer {
+    /* border: 1px solid; */
+    width: 90vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .link p span {
+    font-weight: bold;
+}
+.footer .link p {
+    font-weight: lighter;
+}
+/* footer end */
+
+.mink {
+    /* border: 1px solid; */
+    width: 90vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
